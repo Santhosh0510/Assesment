@@ -1,0 +1,49 @@
+CSS 
+Step 1: Use the @import in CSS
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+Step 2: Reset HTML default styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+Step 3: Set the font-family
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+Step 4: Style the header
+/* header section*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 15px;
+  }
+
+Step 5: Set the height of the main section
+main {
+   height: calc(100vh - 70px);
+   display: flex;
+   background-color: #f9f9f9;
+ }
+
+Step 6: Hide the scrollbar
+/* Sidebar */ 
+.side-bar {
+    height: 100%;
+    width: 17%;
+    background-color: white;
+    overflow-y: hidden;
+  } 
+
+Step 7: Add media queries for responsiveness
+@media (max-width: 768px) {
+    .side-bar {
+      display: none;
+    }
+  }
