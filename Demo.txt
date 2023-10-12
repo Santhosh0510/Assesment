@@ -1,0 +1,2 @@
+I develop an app with HTML and CSS?
+Apache Cordova is a framework for building mobile apps with HTML, CSS, and JavaScript. You can target multiple platforms with one code base. Apache Cordova is an open-source mobile development framework.
